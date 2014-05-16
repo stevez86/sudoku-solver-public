@@ -2,8 +2,8 @@
 
 ##Learning Competencies
 
-* Model a simple real-world system in Ruby code
-* Use Pseudocode effectively to model problem-solving
+* Model a simple real-world procedure in Ruby.
+* Use Psuedocode to model
 
 ##Summary
 
@@ -105,6 +105,22 @@ Remember, always start with the simplest test case possible. For a Sudoku solver
 609238745274561398853947621486352179792614583531879264945723816328196457167485932
 ```
 
-<!-- ##Optimize Your Learning -->
+### Release 2: Try your luck
 
-##Resources
+The `source` folder of this repo includes 2 puzzle sets:
+
+- set-01_sample.unsolved
+- set-02_project_euler_50-easy-puzzles
+
+Can your solver solve all the puzzes in both sets?  If not, why not?
+
+How long does it take to work through these puzzles?  Can you make it faster?
+
+### Release 3: Profile your code
+
+If you're curious, you might want to see how long it takes for each line of code in your solver to run.
+
+One tool you might use to do this is [rblineprof](https://github.com/tmm1/rblineprof).  There are lots of ways to profile your code.
+
+After profiling, did you learn anything about how your solver works to improve its overall performance?
+
