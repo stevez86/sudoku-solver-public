@@ -105,7 +105,7 @@ Remember, always start with the simplest test case possible. For a Sudoku solver
 609238745274561398853947621486352179792614583531879264945723816328196457167485932
 ```
 
-### Release 2: Try your luck
+### Release 3: Try your luck
 
 The `source` folder of this repo includes 2 puzzle sets:
 
@@ -116,7 +116,7 @@ Can your solver solve all the puzzes in both sets?  If not, why not?
 
 How long does it take to work through these puzzles?  Can you make it faster?
 
-### Release 3: Profile your code
+### Release 4: Profile your code
 
 If you're curious, you might want to see how long it takes for each line of code in your solver to run.
 
