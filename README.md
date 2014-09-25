@@ -66,7 +66,7 @@ Applying single responsibility to your methods and naming them succinctly can ma
 
   For example:
 
-  `"---26-7-168--7--9-19---45--82-1---4---46-29---5---3-28--93---74-4--5--367-3-18---"`
+  `'---26-7-168--7--9-19---45--82-1---4---46-29---5---3-28--93---74-4--5--367-3-18---'`
 
 - The `Sudoku` class should have an instance method `#board` that returns the current state of the board in the same format as the argument passed in when instantiating a solver (i.e., an 81-character string).
 
@@ -119,7 +119,7 @@ Remember, starting with a simple test case can be very helpful when approaching 
 
 ### Release 1: Test for multiple cases and add reporting
 
-The first five puzzles in `sudoku_puzzles.txt` can be solved with basic logic by identifying when a square has only one possible value.  The successive puzzles in the file are increasingly more difficult. Make sure your solver works for all 5 of the simple puzzles.
+Make sure your solver works for all 5 of the simple puzzles included in the `sudoku_puzzles.txt` file.  The first five puzzles are 'simple' and can be solved with basic logic by identifying when a square has only one possible value.  The successive puzzles in the file are increasingly more difficult.
 
 What happens when your solver reaches a puzzle it cannot solve?  Stuck in an infinite loop?  **Upgrade your solver so it reports when it encounters a puzzle that is beyond it's algorithmic capability, and ends gracefully.**
 
