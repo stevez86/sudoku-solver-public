@@ -1,4 +1,4 @@
-# Sudoku 1 Modeling Logic
+# Sudoku 1 Modeling Logic - TEST
 
 ##Learning Competencies
 
@@ -43,7 +43,7 @@ It's important to see that sometimes the strategies that work for us (humans) wo
 
 #### 3) Pseudocode for First Iteration
 
-Remember, for the first iteration, we're just going build a solver that fills in "logically necessary" squares and requires no guessing. This might not solve every Sudoku board, although it often solves the easiest. How can you tell when you've filled in all the "logically necessary" squares?  What steps that are part of your algorithm can be encapsulated into well-named methods? 
+Remember, for the first iteration, we're just going build a solver that fills in "logically necessary" squares and requires no guessing. This might not solve every Sudoku board, although it often solves the easiest. How can you tell when you've filled in all the "logically necessary" squares?  What steps that are part of your algorithm can be encapsulated into well-named methods?
 
 For example, one step in the process will likely be finding all the neighboring cell values for a current cell.  This step can be broken down into at least three methods:
 
@@ -70,7 +70,7 @@ Applying single responsibility to your methods and naming them succinctly can ma
 
 - The `Sudoku` class should have an instance method `#board` that returns the current state of the board in the same format as the argument passed in when instantiating a solver (i.e., an 81-character string).
 
-- The `Sudoku` class should have an instance method `#solve` that attempts to solve the board.  
+- The `Sudoku` class should have an instance method `#solve` that attempts to solve the board.
 
 - Be sure to write the `Sudoku#to_s` method, so that you can see what your board looks like after running the `Sudoku#solve` method.  A `#to_s` method determines how an object is represented in string-form; it should return a `String` object, not `puts` anything to the console.
 
@@ -97,7 +97,7 @@ would print something like this:
 7 - 3 - 1 8 - - -
 ```
 
-#### Focus on the MVP 
+#### Focus on the MVP
 
 Part of being a good developer is knowing what NOT to worry about in your first iteration.  Here's some examples of non-core functionality:
 
