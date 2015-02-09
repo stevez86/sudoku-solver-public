@@ -1,4 +1,8 @@
-# Sudoku 1 Modeling Logic - TEST
+#Solution for Sudoku
+
+A brute force solution by Steve Zimmerman created the first week of Dev BootCamp
+
+# Sudoku 1 Modeling Logic
 
 ##Learning Competencies
 
