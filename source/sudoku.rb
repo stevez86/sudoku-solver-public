@@ -14,8 +14,8 @@ class Sudoku
     # p coord_being_checked
     # return if is_solved?
 
-    clear_screen!
-    puts self
+    # clear_screen!
+    # puts self
     # sleep(0.01)
     # puts "Working on: (#{row_being_checked},#{col_being_checked})"
 
